@@ -1,7 +1,7 @@
-const Header = ({ onBtn, showAdd }) => {
+const Header = ({ onBtn, showAdd,title }) => {
     return (
         <header className="header">
-            <h1>VAT TRACKER</h1>
+            <h1>{title}</h1>
             <button className="btn" onClick={onBtn} > {showAdd ? 'Close' : 'Add'}</button> 
         </header>
     )

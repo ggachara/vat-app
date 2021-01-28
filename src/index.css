@@ -10,13 +10,23 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.big-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid black;
+
+}
 .container {
-  max-width: 500px;
-  margin: 30px auto;
+  max-width: 700px;
+  margin: 12px auto;
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
-  padding: 30px;
+  padding: 20px;
   border-radius: 5px;
 }
 
@@ -76,7 +86,7 @@ body {
 }
 
 .form-control {
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
 .form-control label {

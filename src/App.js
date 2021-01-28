@@ -70,10 +70,15 @@ const fetchTask = async (id) => {
   }
 
   return (
-    <div className="container">
-     <Header onBtn={() => setShowAdd(!showAdd)} showAdd={showAdd} />
-     {showAdd && <AddTask onAdd={addTask}/>}
-     {tasks.length > 0 ? <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/> : 'Show nothing here!!!'}
+    <div className="big-container">
+      <div className="container">
+      <Header onBtn={() => setShowAdd(!showAdd)} showAdd={showAdd} title={"VAT TRACKER"}/>
+      {showAdd && <AddTask  onAdd={addTask}/>}
+      </div>
+      <div className="container">
+      <Header onBtn={() => setShowAdd(!showAdd)} showAdd={showAdd} title={"VAT RECORDS"}/>
+      {tasks.length > 0 ? <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/> : 'Show nothing here!!!'}
+      </div>
     </div>
   );
 }
