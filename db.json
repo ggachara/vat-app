@@ -1,22 +1,30 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Kayole PeakPoint Appointment",
-      "day": "Feb 14 2020",
-      "reminder": true
+      "company": "Shell Petroleum Banana",
+      "receipt": "12390",
+      "amount": "3456",
+      "vatable": "900",
+      "vatamt": "89",
+      "id": 1
     },
     {
-      "id": 2,
-      "text": "Chaste Rongai Appointment",
-      "day": "Feb 15 2020",
-      "reminder": true
-    },
+      "company": "Utalii Hse Mgt",
+      "receipt": "89023",
+      "amount": "90,000",
+      "vatable": "30,000",
+      "vatamt": "4800",
+      "id": 2
+    }
+  ],
+  "facts": [
     {
-      "text": "Mamuka Another One",
-      "day": "Not Even Sure",
-      "reminder": true,
-      "id": 3
+      "Option": "Shell  Banana",
+      "receipt": "12390",
+      "amount": "3456",
+      "vatable": "900",
+      "vatamt": "89",
+      "id": 1
     }
   ]
 }

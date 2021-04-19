@@ -73,7 +73,7 @@ const fetchTask = async (id) => {
     <div className="big-container">
       <div className="container">
       <Header onBtn={() => setShowAdd(!showAdd)} showAdd={showAdd} title={"VAT TRACKER"}/>
-      {showAdd && <AddTask  onAdd={addTask}/>}
+      {showAdd && <AddTask onAdd={addTask}/>}
       </div>
       <div className="container">
       <Header onBtn={() => setShowAdd(!showAdd)} showAdd={showAdd} title={"VAT RECORDS"}/>
